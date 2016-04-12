@@ -52,13 +52,16 @@ int sumOfPrime(int candidateprime)
 - (IBAction) showSumOfPrimes:(id) sender
 {
     int candidatePrime = _addThePrimes.text.intValue;
+//    if (_addThePrimes.text.integerValue.
+//        self.sumOfPrimes.text= [NSString stringWithFormat:@"not a prime number!"];
+    
     bool isPrime = checkIfPrime(candidatePrime);
     if(isPrime) {
         int sumOfPrimesCalc = sumOfPrime(candidatePrime);
         self.sumOfPrimes.text= [NSString stringWithFormat:@"%i",sumOfPrimesCalc];
     }
     else
-    self.sumOfPrimes.text= [NSString stringWithFormat:@"%i",0];
+    self.sumOfPrimes.text= [NSString stringWithFormat:@"not a prime number!"];
 }
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
