@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D381DC9E1CBABE4000B62EE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D381DC9D1CBABE4000B62EE4 /* main.m */; };
+		D381DCA11CBABE4000B62EE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D381DCA01CBABE4000B62EE4 /* AppDelegate.m */; };
+		D381DCA41CBABE4000B62EE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D381DCA31CBABE4000B62EE4 /* ViewController.m */; };
+		D381DCA71CBABE4000B62EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D381DCA51CBABE4000B62EE4 /* Main.storyboard */; };
+		D381DCA91CBABE4000B62EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D381DCA81CBABE4000B62EE4 /* Assets.xcassets */; };
+		D381DCAC1CBABE4000B62EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D381DCAA1CBABE4000B62EE4 /* LaunchScreen.storyboard */; };
+		D381DCB61CBAE9A100B62EE4 /* PrimesSumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D381DCB41CBAE9A100B62EE4 /* PrimesSumViewController.m */; };
+		D381DCB71CBAE9A100B62EE4 /* PrimesSumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D381DCB51CBAE9A100B62EE4 /* PrimesSumViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D381DC991CBABE4000B62EE4 /* PrimesSums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimesSums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D381DC9D1CBABE4000B62EE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D381DC9F1CBABE4000B62EE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D381DCA01CBABE4000B62EE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D381DCA21CBABE4000B62EE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D381DCA31CBABE4000B62EE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D381DCA61CBABE4000B62EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D381DCA81CBABE4000B62EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D381DCAB1CBABE4000B62EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D381DCAD1CBABE4000B62EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D381DCB31CBAE9A100B62EE4 /* PrimesSumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimesSumViewController.h; sourceTree = "<group>"; };
+		D381DCB41CBAE9A100B62EE4 /* PrimesSumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimesSumViewController.m; sourceTree = "<group>"; };
+		D381DCB51CBAE9A100B62EE4 /* PrimesSumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrimesSumViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D381DC961CBABE4000B62EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D381DC901CBABE4000B62EE4 = {
+			isa = PBXGroup;
+			children = (
+				D381DC9B1CBABE4000B62EE4 /* PrimesSums */,
+				D381DC9A1CBABE4000B62EE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D381DC9A1CBABE4000B62EE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D381DC991CBABE4000B62EE4 /* PrimesSums.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D381DC9B1CBABE4000B62EE4 /* PrimesSums */ = {
+			isa = PBXGroup;
+			children = (
+				D381DC9F1CBABE4000B62EE4 /* AppDelegate.h */,
+				D381DCA01CBABE4000B62EE4 /* AppDelegate.m */,
+				D381DCA21CBABE4000B62EE4 /* ViewController.h */,
+				D381DCB31CBAE9A100B62EE4 /* PrimesSumViewController.h */,
+				D381DCB41CBAE9A100B62EE4 /* PrimesSumViewController.m */,
+				D381DCB51CBAE9A100B62EE4 /* PrimesSumViewController.xib */,
+				D381DCA31CBABE4000B62EE4 /* ViewController.m */,
+				D381DCA51CBABE4000B62EE4 /* Main.storyboard */,
+				D381DCA81CBABE4000B62EE4 /* Assets.xcassets */,
+				D381DCAA1CBABE4000B62EE4 /* LaunchScreen.storyboard */,
+				D381DCAD1CBABE4000B62EE4 /* Info.plist */,
+				D381DC9C1CBABE4000B62EE4 /* Supporting Files */,
+			);
+			path = PrimesSums;
+			sourceTree = "<group>";
+		};
+		D381DC9C1CBABE4000B62EE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D381DC9D1CBABE4000B62EE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D381DC981CBABE4000B62EE4 /* PrimesSums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D381DCB01CBABE4000B62EE4 /* Build configuration list for PBXNativeTarget "PrimesSums" */;
+			buildPhases = (
+				D381DC951CBABE4000B62EE4 /* Sources */,
+				D381DC961CBABE4000B62EE4 /* Frameworks */,
+				D381DC971CBABE4000B62EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimesSums;
+			productName = PrimesSums;
+			productReference = D381DC991CBABE4000B62EE4 /* PrimesSums.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D381DC911CBABE4000B62EE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Robert Wendel";
+				TargetAttributes = {
+					D381DC981CBABE4000B62EE4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D381DC941CBABE4000B62EE4 /* Build configuration list for PBXProject "PrimesSums" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D381DC901CBABE4000B62EE4;
+			productRefGroup = D381DC9A1CBABE4000B62EE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D381DC981CBABE4000B62EE4 /* PrimesSums */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D381DC971CBABE4000B62EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D381DCB71CBAE9A100B62EE4 /* PrimesSumViewController.xib in Resources */,
+				D381DCAC1CBABE4000B62EE4 /* LaunchScreen.storyboard in Resources */,
+				D381DCA91CBABE4000B62EE4 /* Assets.xcassets in Resources */,
+				D381DCA71CBABE4000B62EE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D381DC951CBABE4000B62EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D381DCB61CBAE9A100B62EE4 /* PrimesSumViewController.m in Sources */,
+				D381DCA41CBABE4000B62EE4 /* ViewController.m in Sources */,
+				D381DCA11CBABE4000B62EE4 /* AppDelegate.m in Sources */,
+				D381DC9E1CBABE4000B62EE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D381DCA51CBABE4000B62EE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D381DCA61CBABE4000B62EE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D381DCAA1CBABE4000B62EE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D381DCAB1CBABE4000B62EE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D381DCAE1CBABE4000B62EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D381DCAF1CBABE4000B62EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D381DCB11CBABE4000B62EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimesSums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawdzilla.PrimesSums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D381DCB21CBABE4000B62EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimesSums/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawdzilla.PrimesSums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D381DC941CBABE4000B62EE4 /* Build configuration list for PBXProject "PrimesSums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D381DCAE1CBABE4000B62EE4 /* Debug */,
+				D381DCAF1CBABE4000B62EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D381DCB01CBABE4000B62EE4 /* Build configuration list for PBXNativeTarget "PrimesSums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D381DCB11CBABE4000B62EE4 /* Debug */,
+				D381DCB21CBABE4000B62EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D381DC911CBABE4000B62EE4 /* Project object */;
+}
